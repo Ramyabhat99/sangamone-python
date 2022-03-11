@@ -20,4 +20,4 @@ length=8 #length of password
 number_of_pswrd=4
 for i in range(number_of_pswrd):
     password="".join(random.sample(pswrd,length)) #join joins the the iterable characters that are generated and sample will return randomly selection of items
-print(password)
+    print(password)
